@@ -1,0 +1,105 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: 0 1px 3px -2px black;
+    background-color:rgb(136, 83, 37);
+    margin-top: 20px;
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    
+}
+/* .cozy{
+   color:white; 
+   font-size: 20px;
+   font-weight: 500;
+   margin-right: 800px;
+   align-items: center;
+   gap:10px;
+   margin-top: 29px;
+} */
+.navbar-menu{
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+    justify-content: center;
+    color:brown;
+    gap: 80px;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 20px;
+}
+.navbar-menu li{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    width: 95px;
+    height: 35px;
+    margin-top: 25px;
+   position: relative;
+    
+}
+.nav-cart-count{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 10px;
+    background: red;
+    color:white;
+    position:absoloute;
+    top:1px;
+    right:45px;
+    margin-left: -51px;
+    margin-top: -36px;
+    
+    
+}
+.navbar-menu hr{
+border: none;
+width: 80%;
+height: 3px;
+border-radius: 10px;
+background: rgb(176, 53, 53);
+
+}
+.likebtn{
+    
+    border: none; 
+    background: none; 
+    cursor: pointer; 
+    outline: none;
+    margin-top: 13px;
+    margin-right: 48px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: -5px
+}
+.likebtn:hover{
+    /* color: white; */
+    background-color: rgb(136, 83, 37);
+    transform: scale(1.50);
+}
+.nav-search{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.nav-login{
+    margin-top: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    color: wheat;
+
+}

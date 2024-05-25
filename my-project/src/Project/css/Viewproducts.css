@@ -1,0 +1,52 @@
+/* Add this CSS to your styles file or component */
+
+.product-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .product-image {
+    max-width: 30%; /* Reduce the max-width for a smaller image */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  .product-name {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .product-old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .add-to-cart-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #45a049;
+  }
+  

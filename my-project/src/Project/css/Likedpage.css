@@ -1,0 +1,49 @@
+/* Likedpage.css */
+
+.Lcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Lcontainer > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .Lcontainer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Lcontainer h3 {
+    margin: 0;
+  }
+  
+  .nold {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .but {
+    background-color: #4caf50; /* Green color */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .but:hover {
+    opacity: 0.8;
+  }
+.but{
+  margin: 5px;
+}
+.likepage-footer{
+  width: 1545px;
+}
+  

@@ -1,0 +1,124 @@
+label{
+  color: black;
+}
+.admin-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: rgb(202, 117, 55);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.admin-header {
+  color: #333;
+}
+
+/* Admin Data Styles */
+.admin-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.admin-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.admin-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.admin-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.admin-old-price,
+.admin-new-price,
+.admin-category {
+  margin: 5px 0;
+}
+
+.admin-buttons button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Edit Modal Styles */
+.edit-modal {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-modal label {
+  display: block;
+  margin: 10px 0;
+}
+
+.edit-modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Add Product Modal Styles */
+.add-modal {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-modal label {
+  display: block;
+  margin: 10px 0;
+}
+
+.add-modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Add Product Button Styles */
+.admin-add-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.admin-add-btn:hover {
+  background-color: #45a049;
+}
+.admin-add-btn{
+  margin-bottom: 50px;
+}
+.adminadd{
+  margin: 5px;
+}
+.admin-remove-btn{
+  margin: 5px;
+}
+.adminsave{
+  margin: 5px;
+}
+.admin-bar{
+  width:100%;
+  margin: -8px ;
+}
+
+
+
